@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-drop-d-own-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listDropDOwn/ListDropDOwnWebPart.js",
+          "manifest": "./src/webparts/listDropDOwn/ListDropDOwnWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListDropDOwnWebPartStrings": "lib/webparts/listDropDOwn/loc/{locale}.js"
+  }
+}
